@@ -1,8 +1,10 @@
 # CS760-AtmosphericMeasurements
 
 This project aims to use camera images for the prediction of atmospheric measurements such as temperature and relative humidity. 
+
 This project was complete for the course COMPSCI760 at The University of Auckland, by group P13. 
-This group was comprised of the members: Benjamin Mclntosh1, Chenchen Ning, Chunnan Li, Kevin Cham, and Xiaowei Li.
+
+This group was comprised of the members: Benjamin Mclntosh, Chenchen Ning, Chunnan Li, Kevin Cham, and Xiaowei Li.
 
 The "CNN_Model_Template.ipynb" file contains a simple template for training a CNN on our dataset. This takes care of the immediate image preprocessing and transformations, model training and test predictions, as well as some simple results analysis.
 Users can simply select which of the two measurements they hope to predict, the image resolution, and whether the images should be in colour or greyscale. Note that the CNN model parameters do also need to be adjusted to the specified image size, and number of output predictions.
